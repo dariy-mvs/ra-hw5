@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import CrudCard from './CrudCard';
-import CrudForm from './CrudForm';
-import RefreshCards from './RefreshCards';
+import CrudCard from './CrudCard.js';
+import CrudForm from './CrudForm.js';
+import RefreshCards from './RefreshCards.js';
 import './Crud.css';
 
 
