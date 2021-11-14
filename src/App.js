@@ -1,5 +1,5 @@
 import './App.css';
-import WatchBlock from './watch/WatchBlock';
+import WatchBlock from './watch/WatchBlock.js';
 import Crud from './crud/Crud';
 
 function App() {

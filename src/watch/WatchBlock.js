@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import WatchInput from './WatchInput';
+import WatchInput from './WatchInput.js';
 import moment from 'moment';
 import './Watchblock.css';
 
