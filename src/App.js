@@ -1,10 +1,12 @@
 import './App.css';
-import WatchBlock from './WatchBlock';
+import WatchBlock from './watch/WatchBlock';
+import Crud from './crud/Crud';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <WatchBlock />
+      <Crud />
     </div>
   );
 }

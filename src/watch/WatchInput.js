@@ -28,8 +28,8 @@ export default function WatchInput(props) {
 
   return (
     <div className="inputBox">
-      <input className="name" name="name" onChange={getInputValue}/>
-      <input className="time" name="time" onChange={getInputValue}/>
+      <input className="name" name="name" onChange={getInputValue} placeholder="название"/>
+      <input className="time" name="time" onChange={getInputValue} placeholder="временная зона"/>
       <button className="inputBtn" onClick={changeWatchArr}>добавить</button>
     </div>
   )
